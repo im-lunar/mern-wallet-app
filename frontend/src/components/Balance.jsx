@@ -7,7 +7,7 @@ export function Balance({ value }) {
             </div>
 
             <div className="text-3xl font-bold mt-2">
-                ₹ {value}
+                ₹ {value.toFixed(2)}
             </div>
         </div>
     )
